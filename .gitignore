@@ -1,0 +1,5 @@
+# Ignore everything in the folder
+bioinformatics_freecodecamp/*
+
+# Track only this notebook
+!bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
