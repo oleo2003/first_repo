@@ -1,7 +1,7 @@
 # Ignore everything in the folder
 bioinformatics_freecodecamp/*
-practice_code/plot_preliminary_verdicts.py
-practice_code/filtered_mantamonis.csv
+plot_preliminary_verdicts.py/*
+filtered_mantamonis.csv/*
 
 # Track only this notebook
 !bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
