@@ -1,20 +1,17 @@
-# Ignore everything in the folder
+# Ignore everything in bioinformatics_freecodecamp by default
 bioinformatics_freecodecamp/*
-plot_preliminary_verdicts.py
-Mantamonis_bacterial_contamination_analysis.xlsx
 
-# Re-allow directories so Git can descend
-!bioinformatics_freecodecamp/
-!bioinformatics_freecodecamp/bioactivity-prediction-app/
-!bioinformatics_freecodecamp/bioactivity-prediction-app/*
-
-# Track only this notebook
+# Allow specific notebooks
 !bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_2_Acetylcholinesterase_Exploratory_Data_Analysis.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_3_Acetylcholinesterase_Descriptor_Dataset_Preparation.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_4_Acetylcholinesterase_Regression_Random_Forest.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_5_Acetylcholinesterase_Compare_Regressors.ipynb
 !bioinformatics_freecodecamp/bioactivity-prediction-app/bioactivity_prediction_app.ipynb
-bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
-bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
-bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
+
+# Explicitly ignore large model artifacts
+bioinformatics_freecodecamp/bioactivity-prediction-app/*.pkl
+
+# Other ignored files
+plot_preliminary_verdicts.py
+Mantamonis_bacterial_contamination_analysis.xlsx
