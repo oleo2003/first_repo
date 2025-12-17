@@ -6,6 +6,7 @@ Mantamonis_bacterial_contamination_analysis.xlsx
 # Re-allow directories so Git can descend
 !bioinformatics_freecodecamp/
 !bioinformatics_freecodecamp/bioactivity-prediction-app/
+!bioinformatics_freecodecamp/bioactivity-prediction-app/*
 
 # Track only this notebook
 !bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
@@ -14,3 +15,6 @@ Mantamonis_bacterial_contamination_analysis.xlsx
 !bioinformatics_freecodecamp/CDD_ML_Part_4_Acetylcholinesterase_Regression_Random_Forest.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_5_Acetylcholinesterase_Compare_Regressors.ipynb
 !bioinformatics_freecodecamp/bioactivity-prediction-app/bioactivity_prediction_app.ipynb
+bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
+bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
+bioinformatics_freecodecamp/bioactivity-prediction-app/acetylcholinesterase_model.pkl
